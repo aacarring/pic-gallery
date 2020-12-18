@@ -12,9 +12,25 @@ body {
     background: linear-gradient(180deg, rgb(238, 199, 90), rgb(241, 126, 203));
 }
 .slides {
+    position: relative;
     display: flex;
     width: 860px;
     height: 540px;
     border: 5px solid white;
-    overflow: hidden;
+
+    
+}
+.prev {
+    position: absolute;
+    top: 50%;
+    z-index: 2;
+    left: 15%;
+    cursor: pointer;
+}
+.next {
+    position: absolute;
+    top: 50%;
+    z-index: 2;
+    right: 15%;
+    cursor: pointer;
 }
